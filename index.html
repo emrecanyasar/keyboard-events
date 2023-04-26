@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body id="keyboard-event" onkeydown="onKeyDown(event)" onkeyup="onKeyUp(event)" onkeypress="onKeyPress(event)">
+    <h1>Keyboard Events</h1>
+    <div class="main">
+      <div class="keydown">
+        <div id="keydown-up" class="up">
+          <h2 id="keydowncount">0</h2>
+          <h5>Keyboard Fired</h5>
+        </div>
+        <p id="altKey" class="altKey">altKey : <span id="altKeyCount">false</span></p>
+        <p id="code" class="code" >code : <span id="codeIndex">0</span></p>
+        <p id="ctrlKey" class="ctrlKey" >ctrlKey : <span id="ctrlKeyCount">false</span></p>
+        <p id="key" class="key" >key : <span id="keyIndex">0</span></p>
+        <p id="location" class="location" >location : <span id="locationIndex">0</span></p>
+        <p id="shiftKey" class="shiftKey" >shiftKey : <span id="shiftKeyCount">0</span></p>
+      </div>
+      <div class="onkeypress">
+        <div id="onkeypress-up" class="up">
+            <h2 id="onkeypresscount">0</h2>
+            <h5>onkeypress Fired</h5>
+          </div>
+          <p id="altKey" class="altKey">altKey : <span id="altKeyCount">false</span></p>
+          <p id="code" class="code" >code : <span id="codeIndex">0</span></p>
+          <p id="ctrlKey" class="ctrlKey" >ctrlKey : <span id="ctrlKeyCount">false</span></p>
+          <p id="key" class="key" >key : <span id="keyIndex">0</span></p>
+          <p id="location" class="location" >location : <span id="locationIndex">0</span></p>
+          <p id="shiftKey" class="shiftKey" >shiftKey : <span id="shiftKeyCount">0</span></p>
+      </div>
+      <div class="onkeyup">
+        <div id="onkeyup-up" class="up">
+            <h2 id="onkeyupcount">0</h2>
+            <h5>Onkeyup Fired</h5>
+          </div>
+          <p id="altKey" class="altKey">altKey : <span id="altKeyCount">false</span></p>
+          <p id="code" class="code" >code : <span id="codeIndex">0</span></p>
+          <p id="ctrlKey" class="ctrlKey" >ctrlKey : <span id="ctrlKeyCount">false</span></p>
+          <p id="key" class="key" >key : <span id="keyIndex">0</span></p>
+          <p id="location" class="location" >location : <span id="locationIndex">0</span></p>
+          <p id="shiftKey" class="shiftKey" >shiftKey : <span id="shiftKeyCount">0</span></p>  
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
